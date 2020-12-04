@@ -18,6 +18,5 @@ public class DataSourceValuesTest {
     private String url;
     @Test
     public void configurationTest(){
-        assertEquals("jdbc:mysql://193.112.111.74:3307/demo?useUnicode=true&characterEncoding=utf-8", url);
     }
 }
